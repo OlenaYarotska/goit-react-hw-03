@@ -1,0 +1,32 @@
+.item {
+    width: 350px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    &:not(:last-child){
+        margin-bottom: 10px;
+    }
+}
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+}
+.icon {
+    margin-right: 8px;
+    width: 25px;
+}
+
+.buttonWrp {
+    display: flex;
+}
+.button {
+    padding: 4px;
+    &:hover,
+        &:focus {
+            background-color: rgb(219, 105, 105);
+        }
+}

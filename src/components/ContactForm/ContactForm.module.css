@@ -1,0 +1,31 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+}
+.label {
+    margin-bottom: 5px;
+}
+.input {
+    margin-bottom: 8px;
+}
+.buttonWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    width: 100px;
+    padding: 5px;
+    &:hover,
+    &:focus {
+        background-color: rgb(119, 180, 162);
+    }
+}
+.errorMessage {
+    color: red;
+}
